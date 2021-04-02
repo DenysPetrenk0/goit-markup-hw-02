@@ -19,6 +19,12 @@ body {
     text-decoration: none;
 }
 
+.logo2 {
+    font-family: Raleway;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .logo-part {
     color: var(--link-color);
 }
@@ -32,13 +38,85 @@ body {
     line-height: 16px; 
 }
 
+.hero .titel{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+}
+
+.hero .button {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.adv .title-adv {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+
+.adv .indent-adv {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--text-color)
+}
+
 .contact .link {
     color: var(--text-color); 
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px; 
+    line-height: 1.14; 
+}
+
+.title-h2 {      
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.team .name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.team .work {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+.contact .link2 {
+    color: var(--text-color); 
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14; 
 }
 
 .site-nav .link:hover,
@@ -49,6 +127,19 @@ body {
     
 }
 
-.list{
+.list {
     list-style: none;
+}
+
+.address {
+font-style: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: #ffffff;
+}
+
+.footer,
+.hero {
+    background: #2F303A;
 }
