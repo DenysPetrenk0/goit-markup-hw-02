@@ -32,8 +32,19 @@ body {
     line-height: 16px; 
 }
 
+.contact .link {
+    color: var(--text-color); 
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px; 
+}
+
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.contact .link:hover,
+.contact .link:focus {
     color: var(--link-color);
     
 }
