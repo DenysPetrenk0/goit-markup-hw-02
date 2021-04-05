@@ -29,6 +29,13 @@ body {
     color: var(--link-color);
 }
 
+.size {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
 .site-nav .link {
     color: var(--title-color); 
     text-decoration: none;
@@ -36,6 +43,10 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px; 
+}
+
+.site-nav .link.current {
+    color: var(--link-color);
 }
 
 .hero .titel{
@@ -145,7 +156,9 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus,
 .contact .link:hover,
-.contact .link:focus {
+.contact .link:focus,
+.list .button:hover,
+.list .button:focus {
     color: var(--link-color);
     
 }
